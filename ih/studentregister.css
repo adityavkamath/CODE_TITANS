@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    --tw-bg-opacity: 1;
+    background-color: rgb(8 3 33/var(--tw-bg-opacity));
+    font-family: 'Agbalumo';
+    overflow: hidden;
+}
+
+.main{
+    border-radius: 20px;
+    background-color:#003049;
+    color: white;
+    width:800px;
+    height: 645px;
+    margin: 50px;
+}
+.top-panel
+{
+    display: flex;
+    background-color:#00b4d8;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.boxify{
+    display: flex;
+    height:70%;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    padding-left:50px;
+    padding-top: 25px;
+}
+.left{
+    width: 50%;
+    height: 100%;
+     padding:20px;
+}
+.form-group{
+    margin: 15px;
+}
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 62px;
+}
+input{
+    border:none;
+    height:30px;
+    border-radius: 5px;
+    border:solid 1px;
+    width: 300px;
+    margin-top:5px;
+}
+button{
+    padding:5px;
+    border: none;
+    border-radius:5px ;
+    width: 70px;
+    height:30%;
+    background-color: white;
+    font-size: large;
+}
+.end{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.start{
+    width:90%;
+    font-size:xx-large;
+    font-family: 'Agbalumo';}

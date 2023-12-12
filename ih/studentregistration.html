@@ -1,0 +1,134 @@
+<html >
+<head>
+<title> Login Portal</title>
+		<!-- <link href="bootstrap.min.css" rel="stylesheet"> -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="studentregister.css" rel="stylesheet" type="text/css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Concert+One&family=Ephesis&family=Lobster&family=M+PLUS+Rounded+1c:wght@300&family=Pacifico&family=Russo+One&family=Sansita+Swashed:wght@300;600&family=Sriracha&family=Titan+One&family=Varela+Round&display=swap" rel="stylesheet">
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-georgia.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+</head>
+
+<body>
+<div class="main" >
+	    <div class="header">
+    <div class="header_resize">
+	  
+	  </div>
+	  </div>
+	 
+      
+<form action="studentregistration.php" method="POST"  >
+ <div class="top-panel">
+   <div class="start">Student Registration</div>
+   <div class="end"><button><a href="studentlogin.html" style="text-decoration: none; color:black;">login</a></button>
+    </div>
+  </div>
+  <div class="boxify">
+  <div class="right">
+<div class="form-group" >
+  <tr>
+    <td>Full Name: </td><br>
+    <td><input class="form-control" type="text" name="name" placeholder="Enter your full name" required><br></td>
+  </tr>
+</div>
+<div class="form-group">
+  <tr>
+    <td>Branch</td><br>
+    <td><select class="form-control" name="branch"  label =" Select Branch" id="eee" required>
+      <option value="Computer Science">Computer Science</option>
+      <option value="Civil Engineering">Civil Engineering</option>
+      <option value="Electrical Engineering">Electrical Engineering</option>
+      <option value="Mechanical Engineering">Mechanical Engineering</option>
+      <option value="Artifical intellegence&data science">Artifical intellegence&data science</option>
+      <option value="Artifical intellegence&machine learning">Artifical intellegence&machine learning</option>
+    </select>
+  </td>
+  </tr>
+</div>
+<div class="form-group">
+  <tr>
+<td> Select Year:</td> <br><td><select name="year" class="form-control" label ="Select Year" required>
+  <option value="First Year">First Year</option>
+  <option value="Second Year">Second Year</option>
+  <option value="Third Year">Third Year</option>
+  <option value="Final Year">Final Year </option>
+</select><br> 
+</td>
+</tr>
+</div>
+<div class="form-group">
+  <tr>
+   <td>Email Id:</td>	<br>
+   <td><input class="form-control" type="text" name="emailid" placeholder="Email id" required></td><br>
+ </tr>
+</div>
+<div class="form-group">
+  <tr>
+   <td>LinkedIn Id:</td> <br>
+   <td> <input class="form-control" type="text" name="linkid" placeholder="LinkedIn id" ><br></td>
+ </tr>
+</div>
+<div class="form-group">
+  <tr>
+   <td>Student Id:</td>   <br>
+   <td><input class="form-control" type="text" placeholder="Student id" name="stdid" ></td><br>
+   
+  </tr>
+</div>
+</div>
+<div class="left">
+<div class="form-group">
+  <tr>
+   <td> Roll No:</td ><br>
+   <td><input class="form-control" type="text" name="rollno" placeholder="Roll no."><br></td>
+  </tr>
+</div>
+<div class="form-group">
+  <tr>
+   <td>Date of Birth:</td><br>
+   <td><input class="form-control" type="date" name="dob" required><br></td>
+  </tr>
+</div>
+  <div class="form-group">
+    <tr>
+      <td>Address:</td>	<br>	
+      <td><input class="form-control" type="text" name="address" placeholder=" Enter your address" required><br></td>
+   </tr>
+ </div>
+ <div class="form-group">
+  <tr>
+   <td> Mobile No:</td>	 <br> 
+   <td><input class="form-control" type="text" name="mobileno"  placeholder="Mobile no."required></td>
+  </tr>
+ </div>
+ <div class="form-group">
+  <tr>
+    <td>Username:</td><br>
+    <td><input class="form-control" type="text" name="userid" placeholder="Username"required></td>
+  </tr>
+ </div>
+ <div class="form-group">
+  <tr>
+   <td>Password:</td>	<br>
+   <td><input class="form-control" type="password" name="pass" placeholder="Password" required></td>
+  </tr>
+ </div>
+</div>
+</div>
+<div class="submit">	
+ <button value="Submit" >submit</button>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+ <button  value="Reset">reset</button></div>
+
+</div>
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>
